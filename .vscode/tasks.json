@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "run",
+			"type": "process",
+			"command": "${config:blender_path}",
+			"dependsOn": "build",
+			"group": "build"
+		},
+		{
+			"label": "build",
+			"type": "cmake",
+			"command": "build"
+		}
+	]
+}
