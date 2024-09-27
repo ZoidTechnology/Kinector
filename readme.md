@@ -1,6 +1,9 @@
 # Kinector
 A Kinect motion capture add-on for Blender.
 
+## Requirements
+A Kinect 2 (Kinect for Xbox One) should be attached to a compatible USB port, and the [Kinect for Windows SDK 2.0](https://www.microsoft.com/en-us/download/details.aspx?id=44561) should be installed.
+
 ## Installation
 Download the latest release, then use the `Install` button in Blender's add-ons menu to select the downloaded file. Use the checkbox to enable the add-on.
 
@@ -25,7 +28,7 @@ When enabled, keyframes will be inserted when a new frame is received from the K
 Attempt to connect to or disconnect from the Kinect.
 
 ## Development
-Ensure both [Kinect for Windows SDK 2.0](https://www.microsoft.com/en-us/download/details.aspx?id=44561) and [Visual Studio Build Tools](https://visualstudio.microsoft.com/downloads/) are installed. [Visual Studio Code](https://code.visualstudio.com/) is recommended for development.
+Ensure [Visual Studio Build Tools](https://visualstudio.microsoft.com/downloads/) is installed. [Visual Studio Code](https://code.visualstudio.com/) is recommended for development.
 
 Clone this repository, then initialise submodules with `git submodule update --init`. Create a file called `settings.json` in the `.vscode` directory with the following contents:
 
